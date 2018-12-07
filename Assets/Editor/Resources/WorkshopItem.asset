@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf2299c8864afe4ab42466f546ae20d, type: 3}
+  m_Name: WorkshopItem
+  m_EditorClassIdentifier: 
+  WorkshopPublishedFileID: 1081506516
+  Title: Needy Button Masher
+  Description: "[i]Just don't break the button, speed runners should know how it feels.[/i]\r\n\r\nWell
+    throw me out of the window for making my first ever module! I didn't think I would
+    be able to do it until I was able to practice using tutorials that I could understand
+    pretty fine.\r\n\r\nHTML Manual: [url=https://ktane.timwi.de/HTML/Button%20Masher.html]
+    https://ktane.timwi.de/HTML/Button%20Masher.html [/url]\r\n\r\nModule ID: \"[b]buttonMasherNeedy[/b]\""
+  PreviewImage: {fileID: 2800000, guid: ac4ddf24ca2b9be4bbf80b040430c930, type: 3}
+  Tags:
+  - Needy Module
