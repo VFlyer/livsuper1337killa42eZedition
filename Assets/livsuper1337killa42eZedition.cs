@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class ThePlungerScript : MonoBehaviour
+public class livsuper1337killa42eZedition : MonoBehaviour
 {
     /// <summary>
     /// On the Subject of The Plunger
@@ -145,7 +145,7 @@ public class ThePlungerScript : MonoBehaviour
                 buttonPress.SetTrigger("PlungerTrigger");
                 Plunger.AddInteractionPunch();
                 GetComponent<KMNeedyModule>().HandlePass();
-                LogMessage("You pressed the button at the correct time, module deactivated {0}.", Bomb.GetTime());
+                LogMessage("You pressed the button at the correct time, module deactivated ({0}).", Bomb.GetTime());
                 Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, Plunger.transform);
                 isActive = false;
             }
@@ -154,7 +154,7 @@ public class ThePlungerScript : MonoBehaviour
                 GetComponent<KMNeedyModule>().HandleStrike();
                 isActive = false;
                 GetComponent<KMNeedyModule>().HandlePass();
-                LogMessage("You pressed the button at the wrong time, strike issued {0}.", Bomb.GetTime());
+                LogMessage("You pressed the button at the wrong time, strike issued ({0}).", Bomb.GetTime());
                 buttonPress.SetTrigger("PlungerTrigger");
                 Plunger.AddInteractionPunch();
                 Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, Plunger.transform);
