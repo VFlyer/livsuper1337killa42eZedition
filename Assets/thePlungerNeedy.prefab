@@ -728,7 +728,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: c997e38568c36224f9597fcdebc893d6, type: 3}
+  - {fileID: 2100000, guid: 025ba4e073302cd43ada93d00d64396a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1166,8 +1166,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CountdownTime: 20
-  ModuleType: buttonMasherNeedy
-  ModuleDisplayName: Needy Button Masher
+  ModuleType: needyPlunger
+  ModuleDisplayName: Needy The Plunger
   RequiresTimerVisibility: 1
   WarnAtFiveSeconds: 1
 --- !u!114 &114071664156449324
@@ -1182,7 +1182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - GUI/Text Shader
+  - GUI/KT 3D Text
 --- !u!114 &114205833840264918
 MonoBehaviour:
   m_ObjectHideFlags: 1
