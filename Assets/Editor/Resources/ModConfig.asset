@@ -12,8 +12,20 @@ MonoBehaviour:
   m_Name: ModConfig
   m_EditorClassIdentifier: 
   id: needyPlunger
-  title: Needy The Plunger
-  description: Yeeeeeeeeet
-  version: 1.0
+  title: The Plunger
+  author: ligmaLiv
+  description: 'Dizziness is the earth trying to tell you that it''s all a waste.
+
+
+    Module by Livio
+
+
+    Implemented by Livio
+
+    Complete coderedesign and manual by Marksam32 (thanx <3)
+
+
+    Manual on https://ktane.timwi.de'
+  version: 2.0
   outputFolder: build
-  previewImage: {fileID: 0}
+  previewImage: {fileID: 2800000, guid: f6b7ff8a5ac8ad34b81560b7cb3c6b6a, type: 3}

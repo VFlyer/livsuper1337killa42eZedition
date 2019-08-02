@@ -1,1 +1,1 @@
-Yeety Module called the Plunger
+#[ModKit Wiki](../../wiki)
